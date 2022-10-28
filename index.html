@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel On(Keep Calm Travel on)</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="shortcut icon" href="Images/TravelOn-1.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="Images/TravelOn-1.jpg" alt="" height="100px" width="100px" id="icon">
+        <nav>
+            <ul>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Login</a>
+                <a href="register.html" class="register">Register</a>
+            </ul>
+    </header>
+    <main>
+        <div class="travelimages"> 
+            <img class="travelimages" src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768"> 
+            </div>
+        <div class="formcontainer">
+            <h1>Want a call back?</h1>
+            <form action="callback">
+                <label for="name">Name</label><br><input type="text" placeholder="Enter Your Name"><br><label
+                    for="phonenumber">Phone Number</label><input type="number" placeholder="Phone Number"><button
+                    class="button">Submit</button>
+            </form>
+            <div class="decide">
+                <form action="plan"><input type="text" placeholder="From"><span style='font-size:100px;'>&#8597;</span>
+                    <input type="text" placeholder="To">To
+                    <button class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">Copyright &copy;</div>
+        <p class="images"> <img src="Images/instagram.png" alt="" width="40px" height="40px"></p>
+        <p class="images"> <img src="Images/facebook.png" alt="" width="40px" height="40px"></p>
+        <p class="images"> <img src="Images/youtube.png" alt="" width="40px" height="40px"></p>
+    </footer>
+<!-- <script>
+    var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("travelimages");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script> -->
+</body>
+
+</html>
